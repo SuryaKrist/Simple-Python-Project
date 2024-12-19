@@ -1,17 +1,17 @@
-umur = int(input("Masukkan Umur Anda :"))
+umur = int(input("Enter your age :"))
 
 if umur >= 0 and umur <= 2:
-    kategori = "Bayi"
+    categori = "Baby"
 elif umur >= 3 and umur <= 12:
-    kategori = "Anak-anak"
+    categori = "Child"
 elif umur >= 13 and umur <= 19:
-    kategori = "Remaja"
+    categori = "Teens"
 elif umur >= 20 and umur <= 35:
-    kategori = "Dewasa"
+    categori = "Adults"
 elif umur >= 36 and umur <= 50:
-    kategori = "Paruh Baya"
+    categori = "middle-aged"
 else:
-    kategori = "Lansia"
+    categori = "elderly"
 
-print("Anda sekarang berada dalam kategori usia :", kategori)
+print("You are now in the age category :", categori)
 
