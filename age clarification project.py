@@ -9,9 +9,9 @@ elif umur >= 13 and umur <= 19:
 elif umur >= 20 and umur <= 35:
     categori = "Adults"
 elif umur >= 36 and umur <= 50:
-    categori = "middle-aged"
+    categori = "Middle-aged"
 else:
-    categori = "elderly"
+    categori = "Elderly"
 
 print("You are now in the age category :", categori)
 
